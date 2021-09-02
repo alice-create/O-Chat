@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>img/Customer Copy.png</file>
+        <file>img/CustomerService.png</file>
+        <file>img/head.jpg</file>
+        <file>img/head2.png</file>
+        <file>img/loading4.gif</file>
+        <file>img/myside.png</file>
+        <file>img/note.jfif</file>
+        <file>img/otherside.png</file>
+        <file>img/person.png</file>
+        <file>img/person2.png</file>
+        <file>img/back.png</file>
+        <file>img/close.png</file>
+        <file>img/config_pw.png</file>
+       <file>img/config.png</file>
+       <file>img/config_1.png</file>
+       <file>img/config_2.png</file>
+       <file>img/signup1.png</file>
+       <file>img/signup2.png</file>
+       <file>img/configname.png</file>
+        <file>close.svg</file>
+        <file>max.svg</file>
+        <file>min.svg</file>
+    </qresource>
+</RCC>

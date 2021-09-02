@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>userlist</class>
+ <widget class="QWidget" name="userlist">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background: white;
+	border-width: 1px;
+	border-radius: 10px;	
+}
+
+QPushButton {
+	border-radius: 8px;
+	margin: 2px;
+	color: rgb(255, 255, 255);
+	background-color: #69A2FC;
+	font: 12pt &quot;AvenirNext LT Pro Bold&quot;;
+}
+
+
+QListWidget {
+    background:rgb(245,246,247);
+	border-style: solid;
+	border-color: #E0E0E0;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0;
+	border-right-width: 0;
+}
+
+QListWidget::item:hover {
+	background-color: #85B3FB;
+
+}
+
+QMenu
+{
+        color:rgb(0, 0, 0);
+        background-color:#F5F5F5;
+        border:none;
+}
+QMenu::item
+{
+        color:rgb(0, 0, 0);
+        background-color:#F5F5F5;
+}
+QMenu::item:selected
+{
+        color:black;
+        background-color:#FFFFFF;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>79</y>
+     <width>301</width>
+     <height>561</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,6">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="styleSheet">
+       <string notr="true">QMenu
+{
+        color:rgb(0, 0, 0);
+        background-color:#F5F5F5;
+        border:none;
+}
+QMenu::item
+{
+        color:rgb(0, 0, 0);
+        background-color:#F5F5F5;
+}
+QMenu::item:selected
+{
+        color:black;
+        background-color:#FFFFFF;
+}
+
+
+ 
+
+/* 不可用(操作)选项颜色灰色*/
+
+QMenu::item:!enabled   
+
+{
+color:rgb(128，136,145);
+
+background-color:rgba(255,255,255,1);
+
+}</string>
+      </property>
+      <widget class="QWidget" name="widget_2" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>14</y>
+         <width>51</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/images/img/otherside.png);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>76</x>
+         <y>6</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>AvenirNext LT Pro Bold</family>
+         <pointsize>17</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>yychen</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>79</x>
+         <y>50</y>
+         <width>72</width>
+         <height>15</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>AvenirNext LT Pro Medium</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>30</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>Offline</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QListWidget" name="listWidget"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>175</x>
+     <y>21</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add Friends</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>21</y>
+     <width>157</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>AvenirNext LT Pro Medium</family>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string> Search ID</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
