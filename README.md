@@ -1,9 +1,9 @@
 # O-Chat
 
 ## 服务端代码作者：
-    WormLK、Ling-LXY, Runzhi Ye
+   WormLK, Ling-LXY, Ye-rz
 ## 客户端代码作者：
-    ArwenLeo、yyChen
+   ArwenLeo, yyChen
 
 ## 运行平台： 
 ### 服务端：
